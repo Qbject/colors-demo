@@ -38,7 +38,7 @@ async function handleVisit(res) {
 	let targetRowIdx = null
 	for (let i = 1; i < inputTable.length; i++) {
 		const row = inputTable[i];
-		if (!targetRow || row[1] < targetRow[1]) {
+		if (!targetRow || +row[1] < +targetRow[1]) {
 			targetRowIdx = i - 1;
 			targetRow = row;
 		}
@@ -88,7 +88,7 @@ async function handleChoose(pairIdx, colorIdx, res) {
 	}
 
 	// updating output table
-	if (!outputRowIdx) outputRowIdx = outputTable.length - 1;
+	if (outputRowIdx === null) outputRowIdx = outputTable.length - 1;
 	insertTable(
 		`A${outputRowIdx + 2}`,
 		[[chosenColor, colorChosenCount + 1]],
