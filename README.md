@@ -7,4 +7,5 @@ A simple Firebase app that asks a user for their favorite color and stores the r
 The app interacts with 2 Google spreadsheets - Input and Output. Input sheet stores color pairs and a numbers each color pair was presented and selected. Output sheet stores the how many times each color was chosen. The app selects the pair that was selected the least.
 
 ## Showcase
+
 <video src="https://github.com/Qbject/colors-demo/blob/main/doc/video/showcase.mp4" title="Showcase" width="180"></video>
