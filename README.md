@@ -8,4 +8,4 @@ The app interacts with 2 Google spreadsheets - Input and Output. Input sheet sto
 
 ## Showcase
 
-![](doc/img/showcase.gif)
+![](doc/video/showcase.mp4)
