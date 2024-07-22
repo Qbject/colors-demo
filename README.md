@@ -8,6 +8,6 @@ The app interacts with 2 Google spreadsheets - Input and Output. Input sheet sto
 
 ## Showcase
 
-https://github.com/Qbject/colors-demo/blob/main/doc/video/showcase.mp4
+https://github.com/Qbject/colors-demo/raw/main/doc/video/showcase.mp4
 
-<video src="https://github.com/Qbject/colors-demo/blob/main/doc/video/showcase.mp4" width="180" />
+<video src="https://github.com/Qbject/colors-demo/raw/main/doc/video/showcase.mp4" width="180" />
